@@ -37,7 +37,24 @@ ol {
   padding-left: 0;
   margin: 0;
 }
+
+img {
+  display: block;
+}
 /* ----------Logo---------- */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo {
   color: var(--primary-accent-color);
@@ -56,12 +73,6 @@ ol {
   list-style: none;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
 /* ----------Site-nav---------- */
 
 .site-nav .link {
@@ -103,6 +114,7 @@ ol {
 
 .hero {
   background-color: var(--darck-background-color);
+  padding: 200px 452px 200px 452px;
 }
 
 .hero-title {
@@ -113,6 +125,8 @@ ol {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  width: 696px;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -125,6 +139,9 @@ ol {
   line-height: 1.9;
   letter-spacing: 0.06em;
   cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
 }
 
 .button:hover,
@@ -134,12 +151,21 @@ ol {
 
 /* ----------Sections---------- */
 
+.feature {
+  padding-top: 94px;
+}
+
 .feature-title {
   color: var(--title-text-color);
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.sections {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .sections-title {
@@ -149,10 +175,13 @@ ol {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .staff {
   background-color: var(--secondary-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .staff-title {
@@ -162,6 +191,11 @@ ol {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 10px;
+}
+
+.staff-img {
+  margin-bottom: 30px;
 }
 
 .staff-position {
