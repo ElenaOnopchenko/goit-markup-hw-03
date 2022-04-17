@@ -56,6 +56,11 @@ img {
   padding-bottom: 25px;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   color: var(--primary-accent-color);
 
@@ -64,6 +69,7 @@ img {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  margin-right: 93px;
 }
 .header .accent {
   color: var(--black-logo-color);
@@ -74,6 +80,10 @@ img {
 }
 
 /* ----------Site-nav---------- */
+
+.site-nav {
+  display: flex;
+}
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -93,7 +103,23 @@ img {
   color: var(--primary-accent-color);
 }
 
+.header-item:not(:last-child) {
+  margin-right: 32px;
+}
+
 /* ----------Auth-nav---------- */
+
+.auth-nav {
+  display: flex;
+}
+
+.header-contact {
+  margin-left: auto;
+}
+
+.connect:not(:first-child) {
+  margin-left: 50px;
+}
 
 .auth-nav .link {
   color: var(--primary-text-color);
@@ -142,6 +168,7 @@ img {
   padding: 10px 32px;
   border-radius: 4px;
   min-width: 200px;
+  height: 50px;
 }
 
 .button:hover,
